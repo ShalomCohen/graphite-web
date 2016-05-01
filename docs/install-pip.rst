@@ -15,11 +15,11 @@ simply execute as root:
 .. code-block:: none
 
     export PYTHONPATH="/opt/graphite/lib/:/opt/graphite/webapp/"
-    pip install -r https://raw.githubusercontent.com/graphite-project/carbon/0.9.13/requirements.txt
-    pip install -r https://raw.githubusercontent.com/graphite-project/graphite-web/0.9.13/requirements.txt
-    pip install whisper
-    pip install carbon
-    pip install graphite-web
+    pip install -r https://raw.githubusercontent.com/graphite-project/carbon/0.9.14/requirements.txt
+    pip install -r https://raw.githubusercontent.com/graphite-project/graphite-web/0.9.14/requirements.txt
+    pip install whisper==0.9.14
+    pip install carbon==0.9.14
+    pip install graphite-web==0.9.14
 
 .. note::
 
